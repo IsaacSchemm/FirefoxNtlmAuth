@@ -16,7 +16,7 @@
 			<Description>
 				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
 				<em:minVersion>2.10</em:minVersion>
-				<em:maxVersion>2.*</em:maxVersion>
+				<em:maxVersion>*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		<em:targetApplication>
@@ -30,7 +30,7 @@
 		<em:name>Integrated Authentication for SeaMonkey and Pale Moon</em:name>
 		<em:description>An extension that helps with enabling and managing NTLM (Windows pass-through) and other SPNEGO (integrated authentication) settings.</em:description>
 		<em:creator>Isaac Schemm</em:creator>
-		<em:contributor>Travis Illig</em:creator>
+		<em:contributor>Travis Illig</em:contributor>
 		<em:homepageURL>https://github.com/IsaacSchemm/XulNtlmAuth</em:homepageURL>
 		<em:iconURL>chrome://ntlmauth/content/firefox-ntlmauth.png</em:iconURL>
 	</Description>
