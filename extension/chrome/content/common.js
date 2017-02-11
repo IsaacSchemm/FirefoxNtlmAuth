@@ -25,7 +25,7 @@ if (!com.paraesthesia.ntlmauth.Preferences) com.paraesthesia.ntlmauth.Preference
 	trustedSiteKey: "network.negotiate-auth.trusted-uris",
 	enableNonFqdnNtlmKey: "network.automatic-ntlm-auth.allow-non-fqdn",
 	enableNonFqdnDelegationKey: "network.negotiate-auth.allow-non-fqdn",
-	preferenceService: Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService),
+	preferenceService: Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService).getBranch(""),
 
 	loadSiteList: function () {
 		// We assume all of the SPNEGO settings should be kept in sync.
