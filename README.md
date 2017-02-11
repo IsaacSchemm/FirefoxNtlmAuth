@@ -24,6 +24,6 @@ If you want to install this version of the extension, you will need to use a ver
 
 ## Using the Extension
 
-The wiki for the Integrated Authentication for Firefox project [has some extensive help docs explaining usage.](https://github.com/tillig/FirefoxNtlmAuth/wiki) These instructions should apply to this version of the extension as well.
+[The wiki has some extensive help docs explaining usage.](https://github.com/IsaacSchemm/XulNtlmAuth/wiki)
 
 **Note this extension does not actually DO the authentication.** It just allows easier configuration of settings already present in the web browser.
