@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 	<Description about="urn:mozilla:install-manifest">
-		<em:id>extension@firefox-ntlmauth.googlecode.com</em:id>
+		<em:id>ntlmauth@lakora.us</em:id>
 		<em:version>2.0.2</em:version>
 		<em:type>2</em:type>
 		<!-- Target Application this extension can install into, with minimum and maximum supported versions. -->
@@ -27,10 +27,11 @@
 			</Description>
 		</em:targetApplication>
 		<!-- Front End MetaData -->
-		<em:name>Integrated Authentication for Firefox</em:name>
+		<em:name>Integrated Authentication for SeaMonkey and Pale Moon</em:name>
 		<em:description>An extension that helps with enabling and managing NTLM (Windows pass-through) and other SPNEGO (integrated authentication) settings.</em:description>
-		<em:creator>Travis Illig</em:creator>
-		<em:homepageURL>http://firefox-ntlmauth.googlecode.com/</em:homepageURL>
+		<em:creator>Isaac Schemm</em:creator>
+		<em:contributor>Travis Illig</em:creator>
+		<em:homepageURL>https://github.com/IsaacSchemm/XulNtlmAuth</em:homepageURL>
 		<em:iconURL>chrome://ntlmauth/content/firefox-ntlmauth.png</em:iconURL>
 	</Description>
 </RDF>

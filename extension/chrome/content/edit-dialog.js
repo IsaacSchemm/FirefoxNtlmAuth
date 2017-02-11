@@ -71,7 +71,7 @@ if (!com.paraesthesia.ntlmauth.EditDialog.DialogController) com.paraesthesia.ntl
 	},
 
 	help: function () {
-		window.open("https://code.google.com/p/firefox-ntlmauth/wiki/AddonHelp");
+		window.open("https://github.com/IsaacSchemm/XulNtlmAuth/wiki");
 	},
 
 	initialize: function () {
