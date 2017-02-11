@@ -10,7 +10,7 @@
 		<menuitem label="&tools-menu.text;" accesskey="&tools-menu.accesskey;" insertbefore="devToolsSeparator" command="cmd_showEditorDialog"/>
 	</menupopup>
 	<menupopup id="taskPopup">
-		<menuitem label="&tools-menu.text;" accesskey="&tools-menu.accesskey;" insertbefore="devToolsSeparator" command="cmd_showEditorDialog"/>
+		<menuitem label="&tools-menu.text;" accesskey="&tools-menu.accesskey;" insertbefore="navBeginGlobalItems" command="cmd_showEditorDialog"/>
 	</menupopup>
 	<menupopup id="appmenu_customizeMenu">
 		<menuitem label="&tools-menu.text;" accesskey="&tools-menu.accesskey;" insertafter="appmenu_preferences" command="cmd_showEditorDialog"/>
